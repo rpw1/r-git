@@ -7,5 +7,6 @@ public enum RGitCommandType
     Add,
     Commit,
     Push,
-    Merge
+    Merge,
+    Pull
 }

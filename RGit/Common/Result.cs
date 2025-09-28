@@ -131,16 +131,5 @@ public static class ResultExtensions
         public async Task<TResult> MatchAsync<TResult>(Func<T1, Task<TResult>> onSuccessAsync, Func<TError, Task<TResult>> onFailureAsync) =>
             await (await result).MatchAsync(onSuccessAsync, onFailureAsync);
         #endregion
-    }
-
-
-    
-
-    
-
-    
-
-    
-
-    
+    }   
 }

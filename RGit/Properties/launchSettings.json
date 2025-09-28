@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "CliTool": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "init"
+    }
+  }
+}
